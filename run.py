@@ -2,17 +2,23 @@ import argparse
 
 import numpy as np
 import torch
+from torch.optim.lr_scheduler import StepLR
 from torch.utils.data import DataLoader
 
 from modules.dataset import ImageDataset
 from modules.net import Cnn
 from modules.tools import plot, make_xy, plot_hist
 
-cpu_batch_size = 20  # 256
+cpu_batch_size = 128
 gpu_batch_size = 115
 learning_rate = 1e-2
+momentum = 0.9
+weight_decay = 0.0005
+step_size=220
+gamma=0.1
+
 max_loss_diff = 0.04
-min_epochs = 40  # 2000
+min_epochs = 1000  # 2000
 max_epochs = 2000
 
 IMAGE_ROW = 227
@@ -88,7 +94,8 @@ if args.CONT is not None:
     net.load_state_dict(torch.load('results/{}-model.pkl'.format(args.TAG)))
     start_epoch = args.CONT
 loss_fn = torch.nn.CrossEntropyLoss()
-optimizer = torch.optim.Adam(net.parameters(), lr=learning_rate)
+optimizer = torch.optim.SGD(net.parameters(), lr=learning_rate, momentum=momentum, weight_decay=weight_decay)
+scheduler = StepLR(optimizer, step_size=step_size, gamma=gamma)
 
 if args.GPU: net = net.cuda()
 
@@ -111,6 +118,7 @@ if not args.TEST:
         test_correct = 0
 
         net = net.train()
+        scheduler.step()
         for features, labels in train_loader:  # For each batch, do:
             features = torch.autograd.Variable(features.float())
             labels = torch.autograd.Variable(labels.long())

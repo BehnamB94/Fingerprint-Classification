@@ -1,0 +1,21 @@
+
+ ################################################## 
+TRAIN 	tag: 2nd 
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+1 	Train(L=1.603  | A=0.213) 	Valid(L=1.586  | A=0.270) 	Test(L=1.592  | A=0.221) 	> Best
+2 	Train(L=1.577  | A=0.236) 	Valid(L=1.567  | A=0.180) 	Test(L=1.572  | A=0.233) 	> Best
+3 	Train(L=1.560  | A=0.230) 	Valid(L=1.561  | A=0.175) 	Test(L=1.559  | A=0.244) 	> Best
+4 	Train(L=1.551  | A=0.239) 	Valid(L=1.563  | A=0.170) 	Test(L=1.563  | A=0.258) 
+5 	Train(L=1.547  | A=0.237) 	Valid(L=1.565  | A=0.170) 	Test(L=1.554  | A=0.258) 
+6 	Train(L=1.546  | A=0.241) 	Valid(L=1.551  | A=0.170) 	Test(L=1.557  | A=0.258) 	> Best
+
+ ################################################## 
+TRAIN 	tag: 2nd 
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+1 	Train(L=1.606  | A=0.240) 	Valid(L=1.599  | A=0.170) 	Test(L=1.591  | A=0.258) 	> Best

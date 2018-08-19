@@ -18,8 +18,8 @@ step_size=220
 gamma=0.1
 
 max_loss_diff = 0.04
-min_epochs = 1000  # 2000
-max_epochs = 2000
+min_epochs = 1300
+max_epochs = 1300
 
 IMAGE_ROW = 227
 IMAGE_COL = 227

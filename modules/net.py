@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from torchvision.models import densenet121
+from torchvision.models import densenet121, alexnet
 
 
 class Cnn(nn.Module):
@@ -44,16 +44,30 @@ class TrainedDenseNet(nn.Module):  # 224
     def __init__(self):
         super(TrainedDenseNet, self).__init__()
         self.dense_net = nn.Sequential(*list(densenet121(pretrained=True).children())[:-1])
-        self.fully_connected = nn.Linear(51200, 2)
+        self.fully_connected = nn.Linear(50176, 5)
 
     def forward(self, data):
-        im1 = data[:, 0, :, :].unsqueeze_(1)
-        out1 = self.dense_net(torch.cat((im1, im1, im1), 1))
-        out1 = out1.view(out1.size(0), -1)
+        out = self.dense_net(torch.cat((data, data, data), 1))
+        out = out.view(out.size(0), -1)
+        return self.fully_connected(out)
 
-        im2 = data[:, 1, :, :].unsqueeze_(1)
-        out2 = self.dense_net(torch.cat((im2, im2, im2), 1))
-        out2 = out2.view(out2.size(0), -1)
 
-        out = torch.cat((out1, out2), 1)
+class TrainedAlexnet(nn.Module):  # 227
+    def __init__(self):
+        super(TrainedAlexnet, self).__init__()
+        self.alex = nn.Sequential(*list(alexnet(pretrained=True).children())[:-1])
+        self.fully_connected = nn.Sequential(
+            nn.Linear(256 * 6 * 6, 4096),
+            nn.ReLU(inplace=True),
+            nn.Dropout(),
+
+            nn.Linear(4096, 4096),
+            nn.ReLU(inplace=True),
+
+            nn.Linear(4096, 5),
+        )
+
+    def forward(self, data):
+        out = self.alex(torch.cat((data, data, data), 1))
+        out = out.view(out.size(0), -1)
         return self.fully_connected(out)

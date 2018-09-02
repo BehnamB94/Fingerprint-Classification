@@ -21,8 +21,8 @@ max_loss_diff = 0.04
 min_epochs = 1300
 max_epochs = 1300
 
-IMAGE_ROW = 227
-IMAGE_COL = 227
+IMAGE_ROW = 224
+IMAGE_COL = 224
 parser = argparse.ArgumentParser()
 parser.add_argument('-tag', dest='TAG', default='TEST', help='set a tag (use for save results)')
 parser.add_argument('-cont', dest='CONT', type=int, default=None, help='continue last run from specific epoch')

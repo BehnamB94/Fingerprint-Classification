@@ -4,11 +4,11 @@ import numpy as np
 from matplotlib.image import imread
 from scipy.misc import imresize
 
-FOLDER_NAME = '../1-matcher/dataset/NIST-DB4/'
+FOLDER_NAME = '../Thesis-Fingerprint-Matching-CNN/dataset/NIST-DB4/'
 DATA_LABEL = ['A', 'L', 'R', 'T', 'W']
 USE_REMOVE_LIST = True
-NEW_IMAGE_ROW = 227
-NEW_IMAGE_COL = 227
+NEW_IMAGE_ROW = 224
+NEW_IMAGE_COL = 224
 
 
 def save_train_test_label():

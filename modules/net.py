@@ -1,4 +1,6 @@
+import torch
 import torch.nn as nn
+from torchvision.models import densenet121
 
 
 class Cnn(nn.Module):
@@ -36,3 +38,22 @@ class Cnn(nn.Module):
         out = self.convolution(data)
         out = out.view(out.size(0), -1)
         return self.fc(out)
+
+
+class TrainedDenseNet(nn.Module):  # 224
+    def __init__(self):
+        super(TrainedDenseNet, self).__init__()
+        self.dense_net = nn.Sequential(*list(densenet121(pretrained=True).children())[:-1])
+        self.fully_connected = nn.Linear(51200, 2)
+
+    def forward(self, data):
+        im1 = data[:, 0, :, :].unsqueeze_(1)
+        out1 = self.dense_net(torch.cat((im1, im1, im1), 1))
+        out1 = out1.view(out1.size(0), -1)
+
+        im2 = data[:, 1, :, :].unsqueeze_(1)
+        out2 = self.dense_net(torch.cat((im2, im2, im2), 1))
+        out2 = out2.view(out2.size(0), -1)
+
+        out = torch.cat((out1, out2), 1)
+        return self.fully_connected(out)

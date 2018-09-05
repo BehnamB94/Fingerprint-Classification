@@ -9,7 +9,7 @@ from modules.dataset import ImageDataset
 from modules.net import TrainedDenseNet, TrainedAlexnet
 from modules.tools import plot, make_xy, plot_hist
 
-cpu_batch_size = 128  # 85 for dense-net
+cpu_batch_size = 85  # 85 for dense-net
 gpu_batch_size = 115
 learning_rate = 1e-2
 momentum = 0.9
@@ -88,7 +88,7 @@ print_and_log('Data Prepared:\n',
 #######################################################################################
 # LOAD OR CREATE MODEL
 #######################################################################################
-net = TrainedAlexnet()
+net = TrainedDenseNet()
 start_epoch = 0
 if args.CONT is not None:
     net.load_state_dict(torch.load('results/{}-model.pkl'.format(args.TAG)))

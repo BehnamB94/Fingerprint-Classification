@@ -6,23 +6,23 @@ from torch.optim.lr_scheduler import StepLR
 from torch.utils.data import DataLoader
 
 from modules.dataset import ImageDataset
-from modules.net import TrainedDenseNet, TrainedAlexnet
+from modules.net import CnnRnn
 from modules.tools import plot, make_xy, plot_hist
 
-cpu_batch_size = 85  # 85 for dense-net
+cpu_batch_size = 128  # 85 for dense-net
 gpu_batch_size = 115
-learning_rate = 1e-2
+learning_rate = 1e-3
 momentum = 0.9
 weight_decay = 0.0005
-step_size = 220
+step_size = 80
 gamma = 0.1
 
 max_loss_diff = 0.04
 min_epochs = 1300
 max_epochs = 1300
 
-IMAGE_ROW = 224
-IMAGE_COL = 224
+IMAGE_ROW = 227
+IMAGE_COL = 227
 parser = argparse.ArgumentParser()
 parser.add_argument('-tag', dest='TAG', default='TEST', help='set a tag (use for save results)')
 parser.add_argument('-cont', dest='CONT', type=int, default=None, help='continue last run from specific epoch')
@@ -88,7 +88,7 @@ print_and_log('Data Prepared:\n',
 #######################################################################################
 # LOAD OR CREATE MODEL
 #######################################################################################
-net = TrainedDenseNet()
+net = CnnRnn()
 start_epoch = 0
 if args.CONT is not None:
     net.load_state_dict(torch.load('results/{}-model.pkl'.format(args.TAG)))

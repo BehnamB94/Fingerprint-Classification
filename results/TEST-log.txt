@@ -1,0 +1,191 @@
+
+ ################################################## 
+TRAIN-SVM 	tag: TEST
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+
+ ################################################## 
+TRAIN-SVM 	tag: TEST
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+
+ ################################################## 
+TRAIN-SVM 	tag: TEST
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+
+ ################################################## 
+TRAIN-SVM 	tag: TEST
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+
+ ################################################## 
+TRAIN-SVM 	tag: TEST
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+
+ ################################################## 
+TRAIN-SVM 	tag: TEST
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+
+ ################################################## 
+TRAIN-SVM 	tag: TEST
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+
+ ################################################## 
+TRAIN-SVM 	tag: TEST
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+
+ ################################################## 
+TRAIN-SVM 	tag: TEST
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+
+ ################################################## 
+TRAIN-SVM 	tag: TEST
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+
+ ################################################## 
+TRAIN-SVM 	tag: TEST
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+
+ ################################################## 
+TRAIN-SVM 	tag: TEST
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+
+ ################################################## 
+TRAIN-SVM 	tag: TEST
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+
+ ################################################## 
+TRAIN-SVM 	tag: TEST
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+
+ ################################################## 
+TRAIN-SVM 	tag: TEST
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+
+ ################################################## 
+TRAIN-SVM 	tag: TEST
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+
+ ################################################## 
+TRAIN-SVM 	tag: TEST
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+
+ ################################################## 
+TRAIN-SVM 	tag: TEST
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+
+ ################################################## 
+TRAIN-SVM 	tag: TEST
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+>>> Test acc on best model = 0.2575
+
+ ################################################## 
+TRAIN-SVM 	tag: TEST
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+>>> Test acc on best model = 0.2575
+
+ ################################################## 
+TRAIN-SVM 	tag: TEST
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+>>> Test acc on best model = 1.0
+
+ ################################################## 
+TRAIN-SVM 	tag: TEST
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+>>> Test acc = 0.17
+
+ ################################################## 
+TRAIN-SVM 	tag: TEST
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+>>> Test acc = 0.2575
+
+ ################################################## 
+TRAIN-SVM 	tag: DecisionTreeClassifier
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+>>> Test acc = 0.79375
+
+ ################################################## 
+TRAIN-SVM 	tag: DecisionTreeClassifier(max_depth=10)
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+>>> Test acc = 0.80875
+
+ ##################################################
+TRAIN-SVM 	tag: DecisionTreeClassifier(max_depth=7)
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+>>> Test acc = 0.78625
+

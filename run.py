@@ -217,4 +217,3 @@ with torch.no_grad():
         test_correct += torch.sum(torch.argmax(outputs, 1) == labels)
     del features, labels
 print_and_log('>>> Test acc on best model =', str(test_correct.item() / test_x.shape[0]))
-plot_hist(true_list, false_list, bin_num=100, tag=args.TAG)

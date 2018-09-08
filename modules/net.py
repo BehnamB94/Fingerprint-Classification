@@ -58,7 +58,7 @@ class CnnRnn(nn.Module):
 
         # parameters
         self.hidden_size = 256
-        self.num_layers = 1
+        self.num_layers = 2
         bidirectional = True
 
         self.directions = 2 if bidirectional else 1
@@ -67,14 +67,15 @@ class CnnRnn(nn.Module):
             nn.ReLU(),
             nn.MaxPool2d(kernel_size=3, stride=2),
 
-            nn.Conv2d(48, 192, kernel_size=5, stride=1, groups=2),
+            nn.Conv2d(48, 64, kernel_size=5, stride=1, groups=2),
             nn.ReLU(),
-            nn.Conv2d(192, 128, kernel_size=5, stride=1, groups=2),
+            nn.Conv2d(64, 128, kernel_size=5, stride=1, groups=2),
             nn.ReLU(),
             nn.MaxPool2d(kernel_size=3, stride=2),
         )
 
-        self.lstm = nn.LSTM(128, self.hidden_size, self.num_layers, batch_first=True, bidirectional=bidirectional)
+        self.lstm = nn.LSTM(128, self.hidden_size, self.num_layers, batch_first=True,
+                            dropout=.5, bidirectional=bidirectional)
         self.fc = nn.Linear(self.hidden_size * self.directions, 5)
 
     def forward(self, data):

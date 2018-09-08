@@ -7,3 +7,90 @@ Data Prepared:
  	TEST:800
 1 	Train(L=1.608  | A=0.221) 	Valid(L=1.606  | A=0.160) 	Test(L=1.607  | A=0.216) 	> Best
 2 	Train(L=1.604  | A=0.228) 	Valid(L=1.601  | A=0.190) 	Test(L=1.602  | A=0.231) 	> Best
+3 	Train(L=1.599  | A=0.217) 	Valid(L=1.597  | A=0.195) 	Test(L=1.598  | A=0.217) 	> Best
+4 	Train(L=1.595  | A=0.210) 	Valid(L=1.593  | A=0.225) 	Test(L=1.594  | A=0.215) 	> Best
+5 	Train(L=1.591  | A=0.216) 	Valid(L=1.590  | A=0.215) 	Test(L=1.591  | A=0.216) 	> Best
+6 	Train(L=1.587  | A=0.216) 	Valid(L=1.587  | A=0.205) 	Test(L=1.588  | A=0.220) 	> Best
+7 	Train(L=1.584  | A=0.248) 	Valid(L=1.585  | A=0.165) 	Test(L=1.584  | A=0.242) 	> Best
+8 	Train(L=1.581  | A=0.260) 	Valid(L=1.584  | A=0.230) 	Test(L=1.582  | A=0.266) 	> Best
+9 	Train(L=1.578  | A=0.258) 	Valid(L=1.580  | A=0.225) 	Test(L=1.579  | A=0.281) 	> Best
+10 	Train(L=1.575  | A=0.242) 	Valid(L=1.578  | A=0.165) 	Test(L=1.575  | A=0.263) 	> Best
+11 	Train(L=1.573  | A=0.240) 	Valid(L=1.575  | A=0.175) 	Test(L=1.577  | A=0.256) 	> Best
+12 	Train(L=1.570  | A=0.239) 	Valid(L=1.574  | A=0.175) 	Test(L=1.574  | A=0.256) 	> Best
+13 	Train(L=1.568  | A=0.240) 	Valid(L=1.575  | A=0.175) 	Test(L=1.571  | A=0.256) 
+14 	Train(L=1.566  | A=0.240) 	Valid(L=1.573  | A=0.170) 	Test(L=1.572  | A=0.258) 	> Best
+15 	Train(L=1.565  | A=0.240) 	Valid(L=1.571  | A=0.170) 	Test(L=1.568  | A=0.258) 	> Best
+16 	Train(L=1.563  | A=0.240) 	Valid(L=1.567  | A=0.170) 	Test(L=1.573  | A=0.258) 	> Best
+17 	Train(L=1.561  | A=0.240) 	Valid(L=1.566  | A=0.170) 	Test(L=1.567  | A=0.258) 	> Best
+18 	Train(L=1.560  | A=0.240) 	Valid(L=1.573  | A=0.170) 	Test(L=1.564  | A=0.258) 
+19 	Train(L=1.558  | A=0.240) 	Valid(L=1.567  | A=0.170) 	Test(L=1.565  | A=0.258) 
+20 	Train(L=1.557  | A=0.240) 	Valid(L=1.559  | A=0.170) 	Test(L=1.561  | A=0.258) 	> Best
+21 	Train(L=1.556  | A=0.240) 	Valid(L=1.565  | A=0.170) 	Test(L=1.563  | A=0.258) 
+22 	Train(L=1.555  | A=0.240) 	Valid(L=1.566  | A=0.170) 	Test(L=1.562  | A=0.258) 
+23 	Train(L=1.554  | A=0.240) 	Valid(L=1.560  | A=0.170) 	Test(L=1.559  | A=0.258) 
+24 	Train(L=1.553  | A=0.240) 	Valid(L=1.563  | A=0.170) 	Test(L=1.558  | A=0.258) 
+25 	Train(L=1.552  | A=0.240) 	Valid(L=1.563  | A=0.170) 	Test(L=1.559  | A=0.258) 
+26 	Train(L=1.551  | A=0.240) 	Valid(L=1.557  | A=0.170) 	Test(L=1.559  | A=0.258) 	> Best
+27 	Train(L=1.550  | A=0.240) 	Valid(L=1.555  | A=0.170) 	Test(L=1.553  | A=0.258) 	> Best
+28 	Train(L=1.549  | A=0.240) 	Valid(L=1.561  | A=0.170) 	Test(L=1.561  | A=0.258) 
+29 	Train(L=1.549  | A=0.240) 	Valid(L=1.559  | A=0.170) 	Test(L=1.553  | A=0.258) 
+30 	Train(L=1.548  | A=0.240) 	Valid(L=1.551  | A=0.170) 	Test(L=1.557  | A=0.258) 	> Best
+31 	Train(L=1.547  | A=0.240) 	Valid(L=1.552  | A=0.170) 	Test(L=1.558  | A=0.258) 
+32 	Train(L=1.547  | A=0.240) 	Valid(L=1.561  | A=0.170) 	Test(L=1.554  | A=0.258) 
+33 	Train(L=1.546  | A=0.240) 	Valid(L=1.550  | A=0.170) 	Test(L=1.554  | A=0.258) 	> Best
+34 	Train(L=1.546  | A=0.240) 	Valid(L=1.563  | A=0.170) 	Test(L=1.553  | A=0.258) 
+35 	Train(L=1.545  | A=0.240) 	Valid(L=1.562  | A=0.170) 	Test(L=1.550  | A=0.258) 
+36 	Train(L=1.545  | A=0.240) 	Valid(L=1.562  | A=0.170) 	Test(L=1.557  | A=0.258) 
+37 	Train(L=1.545  | A=0.240) 	Valid(L=1.552  | A=0.170) 	Test(L=1.562  | A=0.258) 
+38 	Train(L=1.544  | A=0.240) 	Valid(L=1.548  | A=0.170) 	Test(L=1.558  | A=0.258) 	> Best
+39 	Train(L=1.544  | A=0.240) 	Valid(L=1.568  | A=0.170) 	Test(L=1.549  | A=0.258) 
+40 	Train(L=1.544  | A=0.240) 	Valid(L=1.550  | A=0.170) 	Test(L=1.575  | A=0.258) 
+41 	Train(L=1.544  | A=0.240) 	Valid(L=1.557  | A=0.170) 	Test(L=1.555  | A=0.258) 
+42 	Train(L=1.543  | A=0.240) 	Valid(L=1.565  | A=0.170) 	Test(L=1.559  | A=0.258) 
+43 	Train(L=1.543  | A=0.242) 	Valid(L=1.559  | A=0.175) 	Test(L=1.552  | A=0.259) 
+44 	Train(L=1.543  | A=0.240) 	Valid(L=1.567  | A=0.170) 	Test(L=1.562  | A=0.258) 
+45 	Train(L=1.543  | A=0.240) 	Valid(L=1.555  | A=0.175) 	Test(L=1.545  | A=0.258) 
+46 	Train(L=1.543  | A=0.240) 	Valid(L=1.555  | A=0.170) 	Test(L=1.555  | A=0.258) 
+47 	Train(L=1.542  | A=0.240) 	Valid(L=1.557  | A=0.170) 	Test(L=1.555  | A=0.258) 
+48 	Train(L=1.542  | A=0.240) 	Valid(L=1.550  | A=0.175) 	Test(L=1.551  | A=0.258) 
+49 	Train(L=1.542  | A=0.240) 	Valid(L=1.549  | A=0.175) 	Test(L=1.556  | A=0.258) 
+50 	Train(L=1.542  | A=0.240) 	Valid(L=1.552  | A=0.175) 	Test(L=1.548  | A=0.259) 
+51 	Train(L=1.542  | A=0.240) 	Valid(L=1.556  | A=0.175) 	Test(L=1.556  | A=0.258) 
+52 	Train(L=1.542  | A=0.240) 	Valid(L=1.552  | A=0.175) 	Test(L=1.555  | A=0.258) 
+53 	Train(L=1.542  | A=0.240) 	Valid(L=1.559  | A=0.175) 	Test(L=1.554  | A=0.258) 
+54 	Train(L=1.542  | A=0.240) 	Valid(L=1.552  | A=0.175) 	Test(L=1.554  | A=0.258) 
+55 	Train(L=1.542  | A=0.241) 	Valid(L=1.555  | A=0.175) 	Test(L=1.552  | A=0.259) 
+56 	Train(L=1.541  | A=0.241) 	Valid(L=1.556  | A=0.175) 	Test(L=1.567  | A=0.259) 
+57 	Train(L=1.541  | A=0.242) 	Valid(L=1.556  | A=0.175) 	Test(L=1.555  | A=0.259) 
+58 	Train(L=1.541  | A=0.242) 	Valid(L=1.552  | A=0.180) 	Test(L=1.564  | A=0.260) 
+59 	Train(L=1.541  | A=0.243) 	Valid(L=1.545  | A=0.175) 	Test(L=1.559  | A=0.258) 	> Best
+60 	Train(L=1.541  | A=0.243) 	Valid(L=1.569  | A=0.180) 	Test(L=1.555  | A=0.259) 
+61 	Train(L=1.541  | A=0.243) 	Valid(L=1.559  | A=0.180) 	Test(L=1.548  | A=0.259) 
+62 	Train(L=1.541  | A=0.243) 	Valid(L=1.559  | A=0.175) 	Test(L=1.547  | A=0.259) 
+63 	Train(L=1.541  | A=0.245) 	Valid(L=1.566  | A=0.175) 	Test(L=1.563  | A=0.263) 
+64 	Train(L=1.541  | A=0.245) 	Valid(L=1.558  | A=0.180) 	Test(L=1.543  | A=0.261) 
+65 	Train(L=1.541  | A=0.246) 	Valid(L=1.547  | A=0.185) 	Test(L=1.559  | A=0.264) 
+66 	Train(L=1.541  | A=0.245) 	Valid(L=1.548  | A=0.180) 	Test(L=1.551  | A=0.261) 
+67 	Train(L=1.540  | A=0.244) 	Valid(L=1.557  | A=0.180) 	Test(L=1.550  | A=0.261) 
+68 	Train(L=1.540  | A=0.245) 	Valid(L=1.552  | A=0.180) 	Test(L=1.543  | A=0.263) 
+69 	Train(L=1.540  | A=0.248) 	Valid(L=1.541  | A=0.200) 	Test(L=1.556  | A=0.269) 	> Best
+70 	Train(L=1.540  | A=0.251) 	Valid(L=1.550  | A=0.205) 	Test(L=1.557  | A=0.270) 
+71 	Train(L=1.540  | A=0.252) 	Valid(L=1.551  | A=0.205) 	Test(L=1.550  | A=0.270) 
+72 	Train(L=1.540  | A=0.252) 	Valid(L=1.552  | A=0.205) 	Test(L=1.566  | A=0.269) 
+73 	Train(L=1.540  | A=0.252) 	Valid(L=1.555  | A=0.205) 	Test(L=1.549  | A=0.271) 
+74 	Train(L=1.540  | A=0.253) 	Valid(L=1.545  | A=0.205) 	Test(L=1.554  | A=0.271) 
+75 	Train(L=1.539  | A=0.253) 	Valid(L=1.552  | A=0.210) 	Test(L=1.550  | A=0.274) 
+76 	Train(L=1.539  | A=0.254) 	Valid(L=1.555  | A=0.205) 	Test(L=1.554  | A=0.273) 
+77 	Train(L=1.539  | A=0.253) 	Valid(L=1.555  | A=0.205) 	Test(L=1.558  | A=0.273) 
+78 	Train(L=1.539  | A=0.257) 	Valid(L=1.545  | A=0.220) 	Test(L=1.545  | A=0.287) 
+79 	Train(L=1.539  | A=0.255) 	Valid(L=1.551  | A=0.220) 	Test(L=1.553  | A=0.282) 
+80 	Train(L=1.539  | A=0.258) 	Valid(L=1.554  | A=0.220) 	Test(L=1.555  | A=0.286) 
+81 	Train(L=1.539  | A=0.258) 	Valid(L=1.544  | A=0.220) 	Test(L=1.543  | A=0.286) 
+82 	Train(L=1.539  | A=0.258) 	Valid(L=1.545  | A=0.220) 	Test(L=1.549  | A=0.286) 
+83 	Train(L=1.539  | A=0.258) 	Valid(L=1.544  | A=0.220) 	Test(L=1.557  | A=0.286) 
+84 	Train(L=1.539  | A=0.257) 	Valid(L=1.548  | A=0.220) 	Test(L=1.548  | A=0.287) 
+85 	Train(L=1.539  | A=0.258) 	Valid(L=1.554  | A=0.220) 	Test(L=1.549  | A=0.286) 
+86 	Train(L=1.539  | A=0.257) 	Valid(L=1.552  | A=0.220) 	Test(L=1.556  | A=0.286) 
+87 	Train(L=1.539  | A=0.257) 	Valid(L=1.542  | A=0.220) 	Test(L=1.553  | A=0.286) 
+88 	Train(L=1.539  | A=0.258) 	Valid(L=1.543  | A=0.225) 	Test(L=1.545  | A=0.286) 
+89 	Train(L=1.539  | A=0.257) 	Valid(L=1.555  | A=0.220) 	Test(L=1.558  | A=0.286) 

@@ -67,9 +67,9 @@ class CnnRnn(nn.Module):
             nn.ReLU(),
             nn.MaxPool2d(kernel_size=3, stride=2),
 
-            nn.Conv2d(48, 64, kernel_size=5, stride=1, groups=2),
+            nn.Conv2d(48, 192, kernel_size=5, stride=1, groups=2),
             nn.ReLU(),
-            nn.Conv2d(64, 128, kernel_size=5, stride=1, groups=2),
+            nn.Conv2d(192, 128, kernel_size=5, stride=1, groups=2),
             nn.ReLU(),
             nn.MaxPool2d(kernel_size=3, stride=2),
         )

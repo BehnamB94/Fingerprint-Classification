@@ -1,0 +1,62 @@
+
+ ################################################## 
+TRAIN 	tag: 8-CnnRnn 
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+1 	Train(L=1.604  | A=0.240) 	Valid(L=1.609  | A=0.170) 	Test(L=1.600  | A=0.258) 	> Best
+2 	Train(L=1.600  | A=0.240) 	Valid(L=1.604  | A=0.170) 	Test(L=1.596  | A=0.258) 	> Best
+3 	Train(L=1.596  | A=0.240) 	Valid(L=1.602  | A=0.170) 	Test(L=1.594  | A=0.258) 	> Best
+4 	Train(L=1.592  | A=0.240) 	Valid(L=1.599  | A=0.170) 	Test(L=1.592  | A=0.258) 	> Best
+5 	Train(L=1.589  | A=0.240) 	Valid(L=1.596  | A=0.170) 	Test(L=1.589  | A=0.258) 	> Best
+6 	Train(L=1.586  | A=0.240) 	Valid(L=1.595  | A=0.170) 	Test(L=1.585  | A=0.258) 	> Best
+7 	Train(L=1.583  | A=0.240) 	Valid(L=1.589  | A=0.170) 	Test(L=1.582  | A=0.258) 	> Best
+8 	Train(L=1.580  | A=0.240) 	Valid(L=1.584  | A=0.170) 	Test(L=1.584  | A=0.258) 	> Best
+9 	Train(L=1.577  | A=0.240) 	Valid(L=1.586  | A=0.170) 	Test(L=1.581  | A=0.258) 
+10 	Train(L=1.575  | A=0.240) 	Valid(L=1.581  | A=0.170) 	Test(L=1.575  | A=0.258) 	> Best
+11 	Train(L=1.573  | A=0.240) 	Valid(L=1.585  | A=0.170) 	Test(L=1.572  | A=0.258) 
+12 	Train(L=1.571  | A=0.240) 	Valid(L=1.576  | A=0.170) 	Test(L=1.575  | A=0.258) 	> Best
+13 	Train(L=1.569  | A=0.240) 	Valid(L=1.575  | A=0.170) 	Test(L=1.569  | A=0.258) 	> Best
+14 	Train(L=1.568  | A=0.240) 	Valid(L=1.577  | A=0.170) 	Test(L=1.572  | A=0.258) 
+15 	Train(L=1.566  | A=0.240) 	Valid(L=1.573  | A=0.170) 	Test(L=1.569  | A=0.258) 	> Best
+16 	Train(L=1.565  | A=0.240) 	Valid(L=1.573  | A=0.170) 	Test(L=1.567  | A=0.258) 
+17 	Train(L=1.563  | A=0.240) 	Valid(L=1.572  | A=0.170) 	Test(L=1.566  | A=0.258) 	> Best
+18 	Train(L=1.562  | A=0.240) 	Valid(L=1.569  | A=0.170) 	Test(L=1.561  | A=0.258) 	> Best
+19 	Train(L=1.561  | A=0.240) 	Valid(L=1.573  | A=0.170) 	Test(L=1.563  | A=0.258) 
+20 	Train(L=1.560  | A=0.240) 	Valid(L=1.570  | A=0.170) 	Test(L=1.567  | A=0.258) 
+21 	Train(L=1.559  | A=0.240) 	Valid(L=1.568  | A=0.170) 	Test(L=1.560  | A=0.258) 	> Best
+22 	Train(L=1.558  | A=0.240) 	Valid(L=1.571  | A=0.170) 	Test(L=1.568  | A=0.258) 
+23 	Train(L=1.557  | A=0.240) 	Valid(L=1.564  | A=0.170) 	Test(L=1.562  | A=0.258) 	> Best
+24 	Train(L=1.557  | A=0.240) 	Valid(L=1.565  | A=0.170) 	Test(L=1.558  | A=0.258) 
+25 	Train(L=1.556  | A=0.240) 	Valid(L=1.570  | A=0.170) 	Test(L=1.558  | A=0.258) 
+26 	Train(L=1.555  | A=0.240) 	Valid(L=1.567  | A=0.170) 	Test(L=1.555  | A=0.258) 
+27 	Train(L=1.554  | A=0.240) 	Valid(L=1.568  | A=0.170) 	Test(L=1.562  | A=0.258) 
+28 	Train(L=1.554  | A=0.240) 	Valid(L=1.563  | A=0.170) 	Test(L=1.566  | A=0.258) 	> Best
+29 	Train(L=1.553  | A=0.240) 	Valid(L=1.568  | A=0.170) 	Test(L=1.558  | A=0.258) 
+30 	Train(L=1.553  | A=0.240) 	Valid(L=1.569  | A=0.170) 	Test(L=1.567  | A=0.258) 
+31 	Train(L=1.552  | A=0.240) 	Valid(L=1.571  | A=0.170) 	Test(L=1.562  | A=0.258) 
+32 	Train(L=1.552  | A=0.240) 	Valid(L=1.563  | A=0.170) 	Test(L=1.561  | A=0.258) 
+33 	Train(L=1.551  | A=0.240) 	Valid(L=1.556  | A=0.170) 	Test(L=1.564  | A=0.258) 	> Best
+34 	Train(L=1.551  | A=0.240) 	Valid(L=1.565  | A=0.170) 	Test(L=1.553  | A=0.258) 
+35 	Train(L=1.550  | A=0.240) 	Valid(L=1.566  | A=0.170) 	Test(L=1.553  | A=0.258) 
+36 	Train(L=1.550  | A=0.240) 	Valid(L=1.560  | A=0.170) 	Test(L=1.555  | A=0.258) 
+37 	Train(L=1.550  | A=0.240) 	Valid(L=1.555  | A=0.170) 	Test(L=1.558  | A=0.258) 	> Best
+38 	Train(L=1.550  | A=0.240) 	Valid(L=1.567  | A=0.170) 	Test(L=1.553  | A=0.258) 
+39 	Train(L=1.549  | A=0.240) 	Valid(L=1.559  | A=0.170) 	Test(L=1.555  | A=0.258) 
+40 	Train(L=1.549  | A=0.240) 	Valid(L=1.562  | A=0.170) 	Test(L=1.552  | A=0.258) 
+41 	Train(L=1.549  | A=0.240) 	Valid(L=1.561  | A=0.170) 	Test(L=1.558  | A=0.258) 
+42 	Train(L=1.548  | A=0.240) 	Valid(L=1.557  | A=0.170) 	Test(L=1.549  | A=0.258) 
+43 	Train(L=1.548  | A=0.240) 	Valid(L=1.550  | A=0.170) 	Test(L=1.549  | A=0.258) 	> Best
+44 	Train(L=1.548  | A=0.240) 	Valid(L=1.563  | A=0.170) 	Test(L=1.557  | A=0.258) 
+45 	Train(L=1.548  | A=0.240) 	Valid(L=1.555  | A=0.170) 	Test(L=1.557  | A=0.258) 
+
+ ################################################## 
+TRAIN 	tag: 8-CnnRnn 
+Data Prepared:
+ 	TRAIN:2300
+ 	VALID:200
+ 	TEST:800
+1 	Train(L=1.607  | A=0.240) 	Valid(L=1.606  | A=0.170) 	Test(L=1.606  | A=0.258) 	> Best
+2 	Train(L=1.603  | A=0.240) 	Valid(L=1.602  | A=0.170) 	Test(L=1.602  | A=0.258) 	> Best
+3 	Train(L=1.599  | A=0.240) 	Valid(L=1.600  | A=0.170) 	Test(L=1.597  | A=0.258) 	> Best
